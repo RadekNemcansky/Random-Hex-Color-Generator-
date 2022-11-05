@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #6a6ce6;
+  --blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-div {
+  background-color:#474847 ;
+  width: 40rem;
+  padding: 1rem;
+  border: none;
+  color: var(--white);
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.hex {
+  font-size: 4rem;
+  /* border: 2px solid var(--white); */
+  padding: 0 5px;
+
+}
+
+.btn button {
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-weight: 700;
+  width: 10rem;
+  cursor: pointer;
+}
+
+
+button.generate {
+  background-color: #1b1e23;
+}
+
